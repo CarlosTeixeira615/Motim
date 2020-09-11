@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Conteudo, List, Projetos } from "./styles";
+import {Container, Conteudo, List, Projetos} from "./styles";
 
 const Home: React.FC = () => {
   return (
@@ -27,61 +27,67 @@ const Home: React.FC = () => {
         <h1>O que fazemos</h1>
         <div>
           <div>
-            <ul>
-              <h1>BRANDING/ID VISUAL:</h1>
-              <p>
-                Criação/Redesign de marcas fortes, criativas, e com
-                personalidade.
-              </p>
-            </ul>
+            <h1>BRANDING/ID VISUAL:</h1>
+            <p>
+              Criação/Redesign de marcas fortes, criativas, e com personalidade.
+            </p>
           </div>
           <div>
-            <ul>
-              <h1>MOTION DESIGN:</h1>
-              <p>Criação de flyes's animados de até 1 minuto.</p>
-            </ul>
+            <h1>MOTION DESIGN:</h1>
+            <p>Criação de flyes's animados de até 1 minuto.</p>
           </div>
 
           <div>
-            <ul>
-              <h1>UI/UX</h1>
-              <p>
-                Criação de interfaces para aplicação web/mobile baseada em
-                pesquisa e análise.
-              </p>
-            </ul>
+            <h1>UI/UX</h1>
+            <p>
+              Criação de interfaces para aplicação web/mobile baseada em
+              pesquisa e análise.
+            </p>
           </div>
           <div>
-            <ul>
-              <h1>SOCIAL MEDIA:</h1>
-              <p>
-                Criação de peças publicitárias para redes sociais que marcam e
-                geram engajamento.
-              </p>
-            </ul>
+            <h1>SOCIAL MEDIA:</h1>
+            <p>
+              Criação de peças publicitárias para redes sociais que marcam e
+              geram engajamento.
+            </p>
           </div>
           <div>
-            <ul>
-              <h1>CONSTRUÇÃO DE SITES</h1>
-              <p>
-                Sites exclusivos para o seu negócio, totalmente responsivos
-                baseados em análise e planejamento.
-              </p>
-            </ul>
+            <h1>CONSTRUÇÃO DE SITES</h1>
+            <p>
+              Sites exclusivos para o seu negócio, totalmente responsivos
+              baseados em análise e planejamento.
+            </p>
           </div>
           <div>
-            <ul>
-              <h1>MÍDIA OFFLINE</h1>
-              <p>
-                Desenvolvimento de mídia off, como panfletos,cartões de visita,
-                fachadas e muito mais.
-              </p>
-            </ul>
+            <h1>MÍDIA OFFLINE</h1>
+            <p>
+              Desenvolvimento de mídia off, como panfletos,cartões de visita,
+              fachadas e muito mais.
+            </p>
           </div>
         </div>
       </List>
       <Projetos>
-        <h1>PROJETOS</h1>
+        <section>
+          <article>
+            <img src="http://placekitten.com/305/205" alt=" " />
+          </article>
+          <article>
+            <img src="http://placekitten.com/320/220" />
+          </article>
+          <article>
+            <img src="http://placekitten.com/330/240" alt=" " />
+          </article>
+          <article>
+            <img src="http://placekitten.com/280/250" alt=" " />
+          </article>
+          <article>
+            <img src="http://placekitten.com/310/210" alt=" " />
+          </article>
+          <article>
+            <img src="http://placekitten.com/430/240" alt=" " />
+          </article>
+        </section>
       </Projetos>
     </Container>
   );
