@@ -1,5 +1,6 @@
 import React from "react";
 import {Container, Conteudo, List, Projetos} from "./styles";
+import Carrocel from "../../Components/Carrocel";
 
 const Home: React.FC = () => {
   return (
@@ -73,7 +74,7 @@ const Home: React.FC = () => {
             <img src="http://placekitten.com/305/205" alt=" " />
           </article>
           <article>
-            <img src="http://placekitten.com/320/220" />
+            <img src="http://placekitten.com/305/205" alt=" " />
           </article>
           <article>
             <img src="http://placekitten.com/330/240" alt=" " />
@@ -89,6 +90,7 @@ const Home: React.FC = () => {
           </article>
         </section>
       </Projetos>
+      <Carrocel />
     </Container>
   );
 };

@@ -5,8 +5,8 @@ import * as serviceWorker from "./serviceWorker";
 import GlobalStyle from "./styles/global";
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
     <GlobalStyle />
+    <Home />
   </React.StrictMode>,
   document.getElementById("root")
 );
