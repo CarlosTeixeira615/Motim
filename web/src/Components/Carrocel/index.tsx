@@ -57,42 +57,44 @@ export default class Carrocel extends Component {
     };
     return (
       <Container>
-        <h1> Projetos: </h1>
-        <Slider {...settings}>
-          <div>
-            <img src={grid1} alt=" " />
-          </div>
-          <div>
-            <img src={grid2} alt=" " />
-          </div>{" "}
-          <div>
-            <img src={grid3} alt=" " />
-          </div>{" "}
-          <div>
-            <img src={grid4} alt=" " />
-          </div>{" "}
-          <div>
-            <img src={grid5} alt=" " />
-          </div>{" "}
-          <div>
-            <img src={grid6} alt=" " />
-          </div>{" "}
-          <div>
-            <img src={grid7} alt=" " />
-          </div>{" "}
-          <div>
-            <img src={grid8} alt=" " />
-          </div>{" "}
-          <div>
-            <img src={grid9} alt=" " />
-          </div>{" "}
-          <div>
-            <img src={grid10} alt=" " />
-          </div>{" "}
-          <div>
-            <img src={grid11} alt=" " />
-          </div>
-        </Slider>
+        <strong> Projetos: </strong>
+        <div>
+          <Slider {...settings}>
+            <div>
+              <img src={grid1} alt=" " />
+            </div>
+            <div>
+              <img src={grid2} alt=" " />
+            </div>{" "}
+            <div>
+              <img src={grid3} alt=" " />
+            </div>{" "}
+            <div>
+              <img src={grid4} alt=" " />
+            </div>{" "}
+            <div>
+              <img src={grid5} alt=" " />
+            </div>{" "}
+            <div>
+              <img src={grid6} alt=" " />
+            </div>{" "}
+            <div>
+              <img src={grid7} alt=" " />
+            </div>{" "}
+            <div>
+              <img src={grid8} alt=" " />
+            </div>{" "}
+            <div>
+              <img src={grid9} alt=" " />
+            </div>{" "}
+            <div>
+              <img src={grid10} alt=" " />
+            </div>{" "}
+            <div>
+              <img src={grid11} alt=" " />
+            </div>
+          </Slider>
+        </div>
       </Container>
     );
   }
