@@ -65,12 +65,12 @@ export const Conteudo = styled.div`
   justify-content: center;
   h1 {
     max-width: 950px;
-    padding: 3% 15%;
+    padding: 1% 15%;
     color: #06f060;
   }
   p {
     max-width: 950px;
-    padding: 3% 15%;
+    padding: 1% 15%;
     color: white;
   }
 `;

@@ -34,7 +34,7 @@ const Home: React.FC = () => {
           <h1>Contato</h1>
         </a>
         <div>
-          <a href="https://www.youtube.com/watch?v=J0g1cv_03XQ">
+          <a href="http://abre.ai/motimagenciabr">
             <img alt="whats" src={whats} />
           </a>
           <a href="https://www.instagram.com/agenciamotimbr/">
