@@ -34,13 +34,13 @@ const Home: React.FC = () => {
           <h1>Contato</h1>
         </a>
         <div>
-          <a href="https://www.youtube.com/watch?v=J0g1cv_03XQ" target="_blank">
+          <a href="https://www.youtube.com/watch?v=J0g1cv_03XQ">
             <img alt="whats" src={whats} />
           </a>
-          <a href="https://www.instagram.com/agenciamotimbr/" target="_blank">
+          <a href="https://www.instagram.com/agenciamotimbr/">
             <img src={insta} alt="insta" />
           </a>
-          <a href="https://www.facebook.com/agenciamotimbr" target="_blank">
+          <a href="https://www.facebook.com/agenciamotimbr">
             <img src={face} alt="face" />
           </a>
         </div>
