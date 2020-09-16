@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Conteudo, List, Logo, Contato, Folter } from "./styles";
+import {Container, Conteudo, List, Logo, Contato, Folter} from "./styles";
 
 import Carrocel from "../../Components/Carrocel";
 
@@ -17,28 +17,45 @@ const Home: React.FC = () => {
         </div>
       </Logo>
       <header>
-        <h1>Sobre</h1>
-        <h1>Serviços</h1>
-        <h1>Portifólio</h1>
-        <h1>Orçamento</h1>
-        <h1>Contato</h1>
+        <a href="#sobre">
+          <h1>Sobre</h1>
+        </a>
+        <a href="#serviços">
+          <h1>Serviços</h1>
+        </a>
+        <a href="#portifólio">
+          <h1>Portifólio</h1>
+        </a>
+
+        <a href="#orçamento">
+          <h1>Orçamento</h1>
+        </a>
+        <a href="#orçamento">
+          <h1>Contato</h1>
+        </a>
         <div>
-          <img src={whats} alt="whats" />
-          <img src={insta} alt="insta" />
-          <img src={face} alt="face" />
+          <a href="https://www.youtube.com/watch?v=J0g1cv_03XQ" target="_blank">
+            <img alt="whats" src={whats} />
+          </a>
+          <a href="https://www.instagram.com/agenciamotimbr/" target="_blank">
+            <img src={insta} alt="insta" />
+          </a>
+          <a href="https://www.facebook.com/agenciamotimbr" target="_blank">
+            <img src={face} alt="face" />
+          </a>
         </div>
       </header>
-      <Conteudo>
+      <Conteudo id="sobre">
         <h1>Gerando Soluções, revolucionando negócios!</h1>
         <p>
           Atuante desde 2016, a Motim é uma agência com DNA 100% Baiano, alma
           jovem e uma tripulação extremamente criativa! Já desenvolvemos
-          projetos para mais de 10 estados do Brasil a cerca de 5 países,
+          projetos para mais de 10 estados do Brasil cerca de 5 países,
           revolucionando a cultura criativa de diversos negócios.
         </p>
       </Conteudo>
-      <List>
-        <h2>O que fazemos</h2>
+      <List id="serviços">
+        <h2>O QUE FAZEMOS</h2>
         <div>
           <div>
             <div>
@@ -84,10 +101,10 @@ const Home: React.FC = () => {
           </div>
         </div>
       </List>
-      <div>
+      <div id="portifólio">
         <Carrocel />
       </div>
-      <Contato>
+      <Contato id="orçamento">
         <div>
           <h1>CONTATO:</h1>
           <h2>+55 75 98862-8199 // +55 75 99190-2481</h2>
